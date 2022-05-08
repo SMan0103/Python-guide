@@ -12,6 +12,12 @@ print(liste[1:3])
 print(liste[:2])
 print(liste[2:])
 
+
+# Vil du gerne vide hvad der er i en liste så kan du nemt finde ud af det hvis du bruger funktionen nede udner.
+# Funktion tager listen også laver du en if statment som siger hvis den er så skal den da sige jeg
+# Hvis det ikke er i listen så vil den sige at det ikke er der 
 denneListe = ["bog", "tog", "mur", "cykel"]
 if "bog" in denneListe:
     print(" bog er på din liste")
+else:
+    print("Nej bog er der ikke ")
